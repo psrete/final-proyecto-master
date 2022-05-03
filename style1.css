@@ -27,7 +27,7 @@ font-family: 'Square Peg', cursive;*/
     size: 100px;
     position: fixed;
     z-index: 2;
-    background-color: rgba(255, 255, 255, 0.928);
+    background-color: rgba(205, 138, 14, 0.109);
 }
 
 .menu {
@@ -46,6 +46,7 @@ font-family: 'Square Peg', cursive;*/
     padding: 10px;
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 900;
+    color: antiquewhite;
 }
 
 .item:hover {
@@ -73,11 +74,13 @@ font-family: 'Square Peg', cursive;*/
     flex-direction: column;
 
 }
+
 .mb-3 {
     width: 40%;
     font-family: 'Ubuntu Mono', monospace;
 
 }
+
 .footer {
 
     width: 80%;
@@ -88,6 +91,7 @@ font-family: 'Square Peg', cursive;*/
     margin-left: 197px;
     justify-content: center;
 }
+
 .iconos-lista {
     list-style: none;
     display: flex;
@@ -106,8 +110,10 @@ font-family: 'Square Peg', cursive;*/
 
 /*pagina principal*/
 .principal {
-    /* background-color: khaki;*/
-    display: grid;
+      background-image: url(imagenes/background-main.jpg);
+      width: 100%;
+      padding: 250px;
+    /*    display: grid;
     grid-template-columns: auto auto;
     margin: 20px;
     justify-content: space-between;
@@ -116,23 +122,28 @@ font-family: 'Square Peg', cursive;*/
     column-gap: 30px;
     padding: 100px;
     width: 890px;
-    height: 1300px;
+    height: 1300px;*/
 }
 
 .parrafo-fotos {
-    border-radius: 10px;
+    /*border-radius: 10px;
     width: 400px;
     height: 400px;
     -webkit-box-shadow: -2px 1px 38px 9px rgba(94, 143, 94, 0.92);
     -moz-box-shadow: -2px 1px 38px 9px rgba(94, 143, 94, 0.92);
-    box-shadow: -2px 1px 38px 9px rgba(94, 143, 94, 0.92);
+    box-shadow: -2px 1px 38px 9px rgba(94, 143, 94, 0.92);*/
     font-family: 'Ubuntu Mono', monospace;
     font-size: 20px;
-    }
+    color: antiquewhite;
+}
 
 .parrafo {
     font-style: italic;
-    font-size: 14px;
+    font-size: 18px;
+    text-align: justify;
+}
+.h1{
+    text-align: justify;
 }
 
 .foto-detalle {
@@ -311,7 +322,7 @@ font-family: 'Square Peg', cursive;*/
 
 .titulo-vitacora {
     color: green;
-font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 .texto-vitacora {
